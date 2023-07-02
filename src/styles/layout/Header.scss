@@ -2,7 +2,8 @@
   background-color: black;  
   display: flex;
   justify-content: center;
-}
-.header__text{
-    color: greenyellow;
+  &__image{
+    width: 30vw;
+    height: 30vh;
+  }
 }

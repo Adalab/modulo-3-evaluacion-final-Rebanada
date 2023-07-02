@@ -1,10 +1,12 @@
 import '../styles/layout/Header.scss';
-function Header() {
+import logoSerie from "../images/rick.jpg";
+
+const Header = () => {
   return (
     <header className="header">
-      <h1 className="header__text">Rick and Morty</h1>
+      <img className="header__image" src={logoSerie} alt="Logo" />
     </header>
   );
-}
+};
 
 export default Header;
