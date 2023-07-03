@@ -3,7 +3,7 @@ const FName = (props) => {
     const handleSubmit = (ev) => {
       ev.preventDefault();
     };
-  
+    
     const handleInputChange = (ev) => {
       props.handleFName(ev.target.value);
     };

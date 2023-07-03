@@ -4,7 +4,7 @@ import logoSerie from "../images/rick.jpg";
 const Header = () => {
   return (
     <header className="header">
-      <img className="header__image" src={logoSerie} alt="Logo" />
+      <img className="header__img" src={logoSerie} alt="Logo" />
     </header>
   );
 };

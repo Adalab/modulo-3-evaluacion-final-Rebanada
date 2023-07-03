@@ -17,8 +17,8 @@ const CharacterList = ({ cartoons }) => {
       return <Characters key={cartoon.id} cartoon={cartoon} />;
     });
   return (
-    <section className="element_list">
-      <ul >{cartoonElement}</ul>
+    <section >
+      <ul className="element_list">{cartoonElement}</ul>
     </section>
   );
 };

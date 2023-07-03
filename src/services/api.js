@@ -15,6 +15,7 @@ const dataApi = () => {
             });
             return cleanData;
         });
+        
 };
 
 export default dataApi;

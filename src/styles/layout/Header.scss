@@ -1,9 +1,12 @@
-.header{
-  background-color: black;  
+.header {
   display: flex;
   justify-content: center;
-  &__image{
-    width: 30vw;
-    height: 30vh;
+  background-color: black; 
+     
+  &__img {
+      width: 100%;
+      @media screen and (min-width: 768px){
+          width: 25%;
+      }
   }
 }

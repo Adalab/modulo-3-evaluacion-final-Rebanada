@@ -9,7 +9,7 @@ const FSpecies = (props) => {
   
     return (
       <section>
-        <form onSubmit={handleSubmit} className="form">
+        <form className="form_2" onSubmit={handleSubmit} className="form">
           <label className='label' htmlFor="species">Especie:</label>
           <select className="select" name="species" id="species" onChange={handleChange}>
             <option className="value" value="All">Todas</option>
