@@ -4,6 +4,7 @@ import { Routes, Route, matchPath, useLocation } from 'react-router-dom';
 import ls from '../services/localStorage';
 
 import '../styles/main.scss';
+import '../styles/layout/Filters.scss';
 
 import Header from '../components/Header.js';
 import CharacterList from '../components/CharacterList.js';
@@ -56,7 +57,7 @@ function App() {
           element={
             <>
               <Header />
-              <main>
+              <main className='main'>
                 <Filters
                   handleFName={handleFName}
                   filterName={filterName}

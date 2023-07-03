@@ -1,5 +1,5 @@
 import Characters from "./Characters.js";
-
+import '../styles/layout/CharacterList.scss';
 
 
 const CharacterList = ({ cartoons }) => {
@@ -17,8 +17,8 @@ const CharacterList = ({ cartoons }) => {
       return <Characters key={cartoon.id} cartoon={cartoon} />;
     });
   return (
-    <section>
-      <ul>{cartoonElement}</ul>
+    <section className="element_list">
+      <ul >{cartoonElement}</ul>
     </section>
   );
 };

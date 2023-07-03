@@ -1,4 +1,5 @@
 import '../styles/layout/Characters.scss';
+import '../styles/layout/CharacterList.scss';
 import {Link} from 'react-router-dom';
 
 

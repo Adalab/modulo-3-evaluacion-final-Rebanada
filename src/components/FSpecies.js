@@ -1,3 +1,4 @@
+import '../styles/layout/Filters.scss';
 const FSpecies = (props) => {
     const handleSubmit = (ev) => {
       ev.preventDefault();
@@ -8,12 +9,12 @@ const FSpecies = (props) => {
   
     return (
       <section>
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="species">Especie:</label>
-          <select name="species" id="species" onChange={handleChange}>
-            <option value="All">Todas</option>
-            <option value="Human">Humano</option>
-            <option value="Alien">Alien</option>
+        <form onSubmit={handleSubmit} className="form">
+          <label className='label' htmlFor="species">Especie:</label>
+          <select className="select" name="species" id="species" onChange={handleChange}>
+            <option className="value" value="All">Todas</option>
+            <option className="value" value="Human">Humano</option>
+            <option className="value" value="Alien">Alien</option>
           </select>
         </form>
       </section>
