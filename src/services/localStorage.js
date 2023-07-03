@@ -7,18 +7,18 @@ const get = (key, defaultValue) => {
     }
   };
   
-  // Función que guarda una propiedad y su valor en el local storage
+ 
   const set = (key, value) => {
     const localStorageData = JSON.stringify(value);
     localStorage.setItem(key, localStorageData);
   };
   
-  // Función que borra una propiedad del local storage
+ 
   const remove = (key) => {
     localStorage.removeItem(key);
   };
   
-  // Función que limpia todo el local storage
+ 
   const clear = () => {
     localStorage.clear();
   };
@@ -31,5 +31,5 @@ const get = (key, defaultValue) => {
     clear: clear,
   };
   
-  // Exportamos el objeto para que pueda ser usado desde App
+  
   export default objectToExport;
