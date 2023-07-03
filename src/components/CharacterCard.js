@@ -16,7 +16,9 @@ const CharacterCard = (props) => {
           </ul>
         </div>
       </article>
+     
       <Link to={'/'} className='return'>Volver</Link>
+      
     </main>
   );
 };
