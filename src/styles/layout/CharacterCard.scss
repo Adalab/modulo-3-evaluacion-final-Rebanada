@@ -6,30 +6,31 @@
   gap: 45px;
 }
 
+@import '../core/variables.scss';
 .img_card {
-  border: 5px solid greenyellow;
+  border: 5px solid $primary-color;
   border-radius: 5%;
 }
 .element_card {
-  border: 2px solid greenyellow;
+  border: 2px solid $primary-color;
 
   padding: 10px;
   &__li {
-    color: greenyellow;
+    color: $primary-color;
   }
 }
 
 .main_card {
-  background-color: black;
+  background-color: $secundary-color;
   height: 100vh;
 }
 .return {
-    :hover {
-        transform: scale(1.10);
-    }
     font-size: x-large;
-    color: greenyellow;
+    color: $primary-color;
     display: flex;
-    justify-content: center; 
-   
-  }
+    justify-content: center;
+}
+
+.return:hover {
+    color: $blood;
+}

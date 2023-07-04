@@ -1,24 +1,26 @@
+@import '../core/variables.scss';
+
 .form {
 display: flex;
 justify-content: center;
   padding: 15px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: $primary-text;
 }
 .value {
-  color: red;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: $blood;
+  font-family: $primary-text;
 }
 .label {
-  color: white;
+  color: $light;
 padding: 5px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: $primary-text;
 }
 .input{
     padding: 5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: $primary-text;
 }
 .main{
-    background-color: black;
+    background-color: $secundary-color;
     
 
 }
