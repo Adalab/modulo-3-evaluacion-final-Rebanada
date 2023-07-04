@@ -62,6 +62,7 @@ function App() {
                   handleFName={handleFName}
                   filterName={filterName}
                   handleFSpecies={handleFSpecies}
+                  cartoonsFiltered={cartoonsFiltered}
                 />
 
                 <CharacterList cartoons={cartoonsFiltered} />

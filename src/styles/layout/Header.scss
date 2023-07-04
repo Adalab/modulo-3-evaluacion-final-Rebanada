@@ -2,12 +2,12 @@
 .header {
   display: flex;
   justify-content: center;
-  background-color: black; 
-     
+  background-color: black;
+
   &__img {
-      width: 100%;
-      @media screen and (min-width: 768px){
-          width: 25%;
-      }
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 25%;
+    }
   }
 }
