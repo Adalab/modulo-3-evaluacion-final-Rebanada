@@ -1,22 +1,32 @@
 .element{
     padding: 15px;
-  
+     transition: background-color 0.5s ease;
+     border-radius: 2px;
+     :hover {
+      transform: scale(1.10);
+  }
+    
+   
    
   &__img{
     width: 200px;
     height: 200px;
     border: 5px solid greenyellow;
     border-radius: 5%;
+    
+    
    
   }
   &__name{
     color: greenyellow;
     text-align: center;
+    
   
   }
   &__species{
     color: greenyellow;
     text-align: center;
+   
   }
 }
 
@@ -27,4 +37,7 @@ margin: 0 auto;
 }
 .link{
   text-decoration: none;
+  
+ 
+  
 }
